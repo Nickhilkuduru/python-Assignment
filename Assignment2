@@ -1,0 +1,98 @@
+1.What are the two values of the Boolean data type? How do you write them?
+
+Ans1.The Boolean data type can hold two values: true or false. These values are usually written as the keywords true and false, without quotation marks.
+
+2. What are the three different types of Boolean operators?
+
+Ans2.The three different types of boolean data types are AND,OR and NOT.
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+
+Ans3. True&&True=>True
+      true&&flase=>false
+      flase&&true=>false
+      flase&&flase=>false
+      
+      true||true=>true
+      true||flase=>true
+      flase||true=>true
+      flase||flase=>false
+      
+      true!true=>false
+      true!flase=>true
+      flase!true=>true
+      flase!flase=>true
+      
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+
+Ans4.The frist expression is false the secound is true the thrid is true the fourth is flase
+the fifth is false the sixth is true.
+
+5. What are the six comparison operators?
+
+Ans5. The six comparision operators are
+
+      Less than or less than or equal to
+      Greater than or greather than or equal to
+      equalto and not equal to
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+
+Ans6.The assignment operator (=) assigns a value to a variable, while the equal to operator (==) compares two values. You would use the assignment operator when you want to assign a value to a variable, while you would use the equal to operator when you want to compare two values.
+
+7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+print('eggs')
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+print('spam')
+
+Ans 7.The three blocks are if spam == 10:, if spam > 5:, and else:.
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+
+Ans8.if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else:
+    print("Greetings!")
+    
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+
+Ans9. Ctrl + C
+
+10. How can you tell the difference between break and continue?
+
+Ans10.You can tell the difference between break and continue by the way they affect the loop. Break will cause the loop to exit and continue will cause the loop to go to the next iteration.
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
+Ans11.The difference between range(10), range(0, 10), and range(0, 10, 1) is that range(10) starts the counting at 0, range(0, 10) starts the counting at 0, and range(0, 10, 1) starts the counting at 1.
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+
+Ans12.
+for (int i = 1; i <= 10; i++) {
+    System.out.println(i);
+}
+
+int j = 1;
+while (j <= 10) {
+    System.out.println(j);
+    j++;
+}
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+
+Ans13.You would call it by typing spam.bacon().
