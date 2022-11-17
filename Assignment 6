@@ -1,0 +1,59 @@
+1. What are escape characters, and how do you use them?
+
+Ans.Escape characters are used to signal an alternative interpretation of a following character. They are typically used to escape special characters that would otherwise have a different meaning. For example, the escape character \ can be used to escape the character ' so that it is interpreted as a literal ' character instead of the start of a single-quoted string.
+
+2. What do the escape characters n and t stand for?
+
+Ans.n is a newline character and t is a tab character.
+
+3. What is the way to include backslash characters in a string?
+
+Ans.The way to include backslash characters in a string is to use a double backslash (\\).
+
+4. The string &quot;Howl&#39;s Moving Castle&quot; is a correct value. Why isn&#39;t the single quote character in the
+word Howl&#39;s not escaped a problem?
+
+Ans.The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+
+The single quote character is escaped with a backslash, which is a common way to escape special characters in strings.
+
+5. How do you write a string of newlines if you don&#39;t want to use the n character?
+
+Ans.There is no need to use the n character when writing a string of newlines.
+
+6. What are the values of the given expressions?
+&#39;Hello, world!&#39;[1]
+&#39;Hello, world!&#39;[0:5]
+&#39;Hello, world!&#39;[:5]
+&#39;Hello, world!&#39;[3:]
+
+The values of the given expressions are as follows:
+
+Ans.'Hello, world!'[1] = 'e'
+'Hello, world!'[0:5] = 'Hello'
+'Hello, world!'[:5] = 'Hello'
+'Hello, world!'[3:] = 'lo, world!'
+
+7. What are the values of the following expressions?
+&#39;Hello&#39;.upper()
+&#39;Hello&#39;.upper().isupper()
+&#39;Hello&#39;.upper().lower()
+
+Ans.Hello.upper() is HELLO.
+Hello.upper().isupper() is True.
+Hello.upper().lower() is hello.
+
+8. What are the values of the following expressions?
+&#39;Remember, remember, the fifth of July.&#39;.split()
+&#39;-&#39;.join(&#39;There can only one.&#39;.split())
+
+Ans.['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+'There-can-only-one.'
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+
+Ans.Right-justifying a string means that the string is aligned to the right side of a given text field. Left-justifying a string means that the string is aligned to the left side of a given text field. Centering a string means that the string is evenly divided between the left and right sides of a given text field.
+
+10. What is the best way to remove whitespace characters from the start or end?
+
+Ans.The best way to remove whitespace characters from the start or end is to use the trim() function.
