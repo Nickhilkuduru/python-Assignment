@@ -1,0 +1,61 @@
+1. In what modes should the PdfFileReader() and PdfFileWriter() File objects will be opened?
+
+Ans.PdfFileReader() and PdfFileWriter() File objects will be opened in read and write mode respectively.
+
+
+2. From a PdfFileReader object, how do you get a Page object for page 5?
+
+Ans.From a PdfFileReader object, you can get a Page object for page 5 by using the getPage(5) function.
+
+3. What PdfFileReader variable stores the number of pages in the PDF document?
+
+Ans.The PdfFileReader variable stores the number of pages in the PDF document.
+
+4. If a PdfFileReader object’s PDF is encrypted with the password swordfish, what must you do
+before you can obtain Page objects from it?
+
+Ans.Call the decrypt() method, passing the password 'swordfish' as an argument.
+
+5. What methods do you use to rotate a page?
+
+Ans.There are a few methods that can be used to rotate a page:
+
+- Using CSS3 transforms
+- Using the jQuery rotate plugin
+- Using the HTML5 canvas
+
+6. What is the difference between a Run object and a Paragraph object?
+
+Ans.Run objects are not associated with a specific paragraph. Instead, they are associated with the paragraph that immediately precedes them. Paragraph objects, on the other hand, are associated with a specific paragraph.
+
+7. How do you obtain a list of Paragraph objects for a Document object that’s stored in a variable
+named doc?
+
+Ans.doc.paragraphs
+
+8. What type of object has bold, underline, italic, strike, and outline variables?
+
+Ans.A text object.
+
+9. What is the difference between False, True, and None for the bold variable?
+
+Ans.bold = False
+
+If bold is False, then the text will not be bold. If bold is True, then the text will be bold. If bold is None, then the text will not be bold.
+
+10. How do you create a Document object for a new Word document?
+
+Ans.You can create a new Word document using the following code:
+
+var doc = new Word.Document();
+
+This will create a new, blank Word document.
+
+11. How do you add a paragraph with the text &#39;Hello, there!&#39; to a Document object stored in a
+variable named doc?
+
+Ans.doc.add(new Paragraph("Hello, there!"));
+
+12. What integers represent the levels of headings available in Word documents?
+
+Ans.There are nine levels of headings available in Word documents. The integers that represent the levels of headings are 1, 2, 3, 4, 5, 6, 7, 8, and 9.
