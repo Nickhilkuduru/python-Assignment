@@ -1,0 +1,41 @@
+1. What does RGBA stand for?
+
+Ans.RGBA stands for Red Green Blue Alpha.
+
+2. From the Pillow module, how do you get the RGBA value of any images?
+
+Ans.You can use the Pillow module to get the RGBA values of any image by calling the getpixel() method on the Image object. The getpixel() method takes two parameters: an x-coordinate and a y-coordinate. It returns a 4-tuple containing the red, green, blue, and alpha values of the pixel at that location.
+
+3. What is a box tuple, and how does it work?
+
+Ans.A box tuple is a data structure used to store multiple elements of the same type. It works by allocating a fixed amount of memory for each element, and the elements are stored in the same location. This makes it easier to access elements, as all the elements are stored in the same place. Box tuples are used to store collections of objects, such as strings, integers, and so on. They are also used to store collections of other data structures, such as lists, tuples, and dictionaries.
+
+4. Use your image and load in notebook then, How can you find out the width and height of an
+Image object?
+
+Ans.The width and height of an Image object can be found using the size attribute. For example: 
+
+from PIL import Image
+img = Image.open('my_image.jpg')
+width, height = img.size
+print(width, height)
+
+5. What method would you call to get Image object for a 100×100 image, excluding the lower-left
+quarter of it?
+
+Ans.The method to call to get an Image object for a 100x100 image, excluding the lower-left quarter of it, would be the crop() method.
+
+6. After making changes to an Image object, how could you save it as an image file?
+
+Ans.You can save an Image object as an image file by using the Image.save() method. The save() method takes two parameters: a filename and an optional format. For example, to save the Image object as a JPEG file, you could use the following code:
+
+image.save('filename.jpg', 'JPEG')
+
+7. What module contains Pillow’s shape-drawing code?
+
+Ans.The ImageDraw module in the Pillow library contains shape-drawing code.
+
+8. Image objects do not have drawing methods. What kind of object does? How do you get this kind
+of object?
+
+Ans.The object that has drawing methods is a Graphics object. You can get a Graphics object by calling the getGraphics() method on an existing Image object.
